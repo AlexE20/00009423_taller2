@@ -20,6 +20,12 @@ class DummyData {
                         description = "LA MEJOR.",
                         imageRes = R.drawable.peperoni
                     ),
+                    Dish(
+                        id = 20,
+                        name = "Jamon",
+                        description = "LA MEJOR.",
+                        imageRes = R.drawable.jamon
+                    ),
 
                 )
             ),
@@ -44,7 +50,7 @@ class DummyData {
                 name = "Bombardiro Crocodilo",
                 description = "Auténtica comida italiana.",
                 imageRes = R.drawable.bombardiro,
-                categories = listOf("Comida Italiana"),
+                categories = listOf("Comida Italiana","Comida Rápida"),
                 menu = listOf(
                     Dish(
                         id = 5,
@@ -107,7 +113,7 @@ class DummyData {
                 name = "Boba Luba",
                 description = "Jugos, batidos y bebidas naturales.",
                 imageRes = R.drawable.bobaluba,
-                categories = listOf("Bebidas"),
+                categories = listOf("Bebidas","Comida Rápida"),
                 menu = listOf(
                     Dish(
                         id = 13,
